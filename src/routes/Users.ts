@@ -74,9 +74,9 @@ router.put('/update', async (req: Request, res: Response) => {
  ******************************************************************************/
 
 router.delete('/delete/:id', async (req: Request, res: Response) => {
-    const idJSON = req.params;
-    const id = idJSON;
     try {
+        const idJSON = req.params;
+        const id = idJSON;
         await userDao.delete(Number(id));
         return res.status(OK).end();
     } catch (err) {
