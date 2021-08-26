@@ -52,7 +52,7 @@
     "@types/supertest": "^2.0.8",
     "find": "^0.3.0",
     "fs-extra": "^8.1.0",
-    "jasmine": "^3.4.0",
+    "jasmine": "^3.8.0",
     "jsonfile": "^5.0.0",
     "nodemon": "^2.0.12",
     "supertest": "^4.0.2",
